@@ -1,0 +1,11 @@
+runtime: python310
+entrypoint: streamlit run app_final_built_clean.py --server.port=$PORT --server.headless=true
+
+instance_class: F2
+
+env_variables:
+  PYTHONUNBUFFERED: 'true'
+
+handlers:
+  - url: /.*
+    script: auto
