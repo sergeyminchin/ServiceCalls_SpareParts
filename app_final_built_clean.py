@@ -113,13 +113,3 @@ if service_file and parts_file:
         st.success("🎉 הניתוח הסתיים! ניתן להוריד את הקובץ:")
         st.download_button('📥 Excel הורד דוח', output, file_name=filename)
 
-
-
-# =======================
-# חתימה בסוף הדף - מחוץ לבלוקים
-# =======================
-
-st.markdown("---")
-st.markdown("🧑‍💻 Developed by: **Sergey Minchin** – Polytex Service Team")
-st.markdown("📧 sergeym@polytex.co.il")
-st.markdown("📅 תאריך עדכון אחרון: אפריל 2025")
